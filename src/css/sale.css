@@ -16,15 +16,47 @@ gap: 10px;
 
 .edition {}
 
-.sale-edition-subtitle {}
+.sale-edition-subtitle {
+font-weight: 600;
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
 
-.sale-edition-subtitle-one {}
+.sale-edition-subtitle-one {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
 
 .sale-edition-btn {}
 
-.advertisment-text {}
+.sale-micro-text{
+font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
 
-.advertisment-button-fiber {}
+.advertisment-text {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.advertisment-button-fiber {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+}
 
 .advertisment-button-grade {}
 
