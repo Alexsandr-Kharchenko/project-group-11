@@ -1,4 +1,37 @@
 
-.header{
-background-color: red;    
+.sale-section {}
+
+.sale-subtitle {}
+
+.sale-list{
+display: flex;
+align-items: center;
+gap: 10px;
 }
+.sale-item{
+
+}
+
+.sale-image {}
+
+.edition {}
+
+.sale-edition-subtitle {}
+
+.sale-edition-subtitle-one {}
+
+.sale-edition-btn {}
+
+.advertisment-text {}
+
+.advertisment-button-fiber {}
+
+.advertisment-button-grade {}
+
+.advertisment-button-athlete {}
+
+.advertisment-button-golfer {}
+
+.advertisment-button-commander {}
+
+.advertisment-button-adventurer {}
