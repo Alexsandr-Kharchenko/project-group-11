@@ -1,0 +1,101 @@
+body{
+    font-family: "Gilroy", sans-serif;
+    
+}
+
+p{
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 370px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+ .mob-tab-menu {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-image: rgba(12, 12, 12, 0.92), url("../img/images-menu/clock-mb.jpg");
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu-btn-close {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 186px;
+    top: 20px;
+    right: 20px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    /* color: #fbfbfb; */
+}
+.nav-link {
+}
+.social-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sicial-item {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+}
+.social-link {
+}
+.social-icon{
+
+}
