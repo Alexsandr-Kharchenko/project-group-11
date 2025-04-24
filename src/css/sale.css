@@ -1,18 +1,70 @@
 
-.sale-section {}
+.sale-section {
+align-items: flex-start;
+display: inline-flex;
+flex: 0 0 auto;
+flex-direction: column;
+gap: 20px;
+position: relative;
+}
+@media olny screen and (min-width: 768px){
+.sale-section{
+padding: 80px 0;    
+}
+}
+@media olny screen and (min-width: 1200px){
+.sale-section{
+padding: 100px 0;
+}
+}
 
-.sale-subtitle {}
+
+.container{
+min-width: 320px;
+max-width:  375px;
+margin: 0 auto;
+padding: 0 20px;    
+}
+@media olny screen and (min-width: 768px) {
+.container {
+max-width: 768px;
+}
+}
+@media olny screen and (min-width: 1200px){
+.container {
+max-width: 1200px;
+}
+}
+
+
+.sale-subtitle {
+font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+}
 
 .sale-list{
 display: flex;
-align-items: center;
+align-items: column;
 gap: 10px;
 }
-.sale-item{
-
+.sale-item-smole{
+background-image: url(../img/sale-img/rectangle3-min.jpg);
+background-size: 100% 100%;
+height: 80px;
+position: relative;
+width: 80px;
 }
 
-.sale-image {}
+.sale-image-big {
+background-image: url(../img/sale-img/Rectangle\ 13-min.jpg);
+    background-size: 100% 100%;
+    height: 385px;
+    position: relative;
+    width: 335px;
+}
 
 .edition {}
 
