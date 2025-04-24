@@ -66,8 +66,33 @@ background-image: url(../img/sale-img/Rectangle\ 13-min.jpg);
     width: 335px;
 }
 
-.edition {}
+.sale-edition-wrap {
+background-image: url();
+    background-size: 100% 100%;
+    height: 561px;
+    position: relative;
+    width: 335px;
+}
 
+.sale-edition-container {
+left: 28px;
+    min-height: 465px;
+    position: relative;
+    top: 48px;
+    width: 279px;
+}
+.edition-container{
+align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.sale-edition-one-wrap{
+align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
 .sale-edition-subtitle {
 font-weight: 600;
     font-size: 32px;
@@ -84,7 +109,27 @@ font-weight: 400;
     color: rgba(251, 251, 251, 0.5);
 }
 
-.sale-edition-btn {}
+
+.sale-edition-one-wrap{
+align-items: center;
+    display: flex;
+    gap: 9px;
+    margin-top: 20px;
+    min-width: 113px;
+}
+
+
+
+
+.sale-edition-btn {
+font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    width: 78px;
+    height: 32px;
+}
 
 .sale-micro-text{
 font-weight: 400;
@@ -96,11 +141,32 @@ font-weight: 400;
 }
 
 .advertisment-text {
+    color: rgba(251, 251, 251, 0.7);
+        font-weight: 500;
+        line-height: 18px;
+        margin-top: 27px;
+        min-height: 161px;
+        width: 279px;
+}        
+@media olny screen and (min-width: 1200px){
+.advertisment-text{
 font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
+    width: 410px;
+}
+}
+
+.sale-buttons-wrap{
+align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 8px;
+    margin-top: 29px;
+    position: relative;
+    width: 279px;
 }
 
 .advertisment-button-fiber {
