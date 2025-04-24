@@ -47,15 +47,36 @@ button{
  .header-menu {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     top: 0;
     left: 0;
     position: fixed;
-    background-image: rgba(12, 12, 12, 0.92), url("../img/images-menu/clock-mb.jpg");
-
+    background-color: #0c0c0c;
+    background-image: url("/img/header/clock-mb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 
+    opacity: 1;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+    .business{
+        background-image: linear-gradient(rgba(12, 12, 12, 0.92)), url("../img/header/clock-mb-2x.jpg");
+    }
+
+}
+
+.header-menu.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .menu-btn-close {
@@ -64,6 +85,13 @@ button{
     margin-bottom: 186px;
     top: 20px;
     right: 20px;
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    background-color: #e7e9fc;
+    
 }
 .nav-menu {
     display: flex;
@@ -75,16 +103,17 @@ button{
 .nav-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     text-align: center;
-    /* color: #fbfbfb; */
+    color: #fbfbfb;
 }
 .nav-link {
 }
 .social-menu {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
     gap: 10px;
 }
 .sicial-item {
@@ -97,5 +126,6 @@ button{
 .social-link {
 }
 .social-icon{
+    fill: #f8f8f8;
 
 }
