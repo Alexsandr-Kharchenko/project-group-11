@@ -52,9 +52,9 @@ button{
     left: 0;
     position: fixed;
     background-color: #0c0c0c;
-    background-image: url("/img/header/clock-mb.jpg");
+    background-image: url("../img/header/clock-shadows-mb.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 50%;
     background-size: cover;
     
     display: flex;
@@ -68,7 +68,7 @@ button{
 
 @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     .business{
-        background-image: linear-gradient(rgba(12, 12, 12, 0.92)), url("../img/header/clock-mb-2x.jpg");
+        background-image: url("../img/header/clock-shadows-mb-2x.jpg");
     }
 
 }
@@ -87,16 +87,17 @@ button{
     right: 20px;
     width: 34px;
     height: 34px;
-
-    display: flex;
-    align-items: center;
-    background-color: #e7e9fc;
-    
+    border: none;
+    cursor: pointer;
+    /* color: #f8f8f8;  */
 }
+    
+
+
 .nav-menu {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     gap: 24px;
 }
@@ -107,6 +108,22 @@ button{
     text-align: center;
     color: #fbfbfb;
 }
+.home{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+}
+.home .eclipse{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    fill: #3350E9;
+    border-radius: 4px;
+}
+
 .nav-link {
 }
 .social-menu {
@@ -128,4 +145,32 @@ button{
 .social-icon{
     fill: #f8f8f8;
 
+}
+
+@media screen and (min-width: 768px){
+    .header-menu{
+        padding-bottom: 50px;
+        padding-top: 26px;
+        padding-right: 32px;
+        background-image: url("../img/header/clock-shadows-tab.jpg");
+    }
+
+    @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+        .business{
+            background-image: url("../img/header/clock-shadows-tab-2x.jpg");
+        }
+    
+    }
+
+    .nav-menu{
+        gap: 32px;
+    }
+
+
+}
+
+@media screen and (min-width: 1280px){
+    .header-menu{
+        display: none;
+    }
 }
