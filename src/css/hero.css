@@ -58,10 +58,6 @@
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-  /* .container {
-    max-width: 375px;
-  } */
-
   .hero-wrapper {
     padding-bottom: 28px; /* Гап 28px між hero-wrapper та hero-image */
   }
@@ -70,7 +66,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-bottom: 28px; /* Гап 28px між контентом і діями */
+    margin-bottom: 28px; /* Гап 28px між контентом і діями */
   }
 
   .hero-actions {
@@ -102,30 +98,19 @@
   }
 
   .hero-image img {
-    max-width: 335px;
+    width: 100%;
     height: auto;
   }
 }
 
 /* Mobile small */
 @media screen and (max-width: 374px) {
-  /* .container {
-    max-width: 320px;
-    padding-left: 15px;
-    padding-right: 15px;
-  } */
-
   .hero-title {
     font-size: 36px;
   }
 
   .hero-text {
     max-width: 290px;
-  }
-
-  .hero-image img {
-    max-width: 290px;
-    width: 100%;
   }
 }
 
@@ -135,12 +120,6 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
-  /* .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  } */
 
   .hero-wrapper {
     display: flex;
@@ -198,9 +177,9 @@
     display: flex;
   }
 
-  .hero-image img {
+  /* .hero-image img {
     max-width: 704px;
-  }
+  } */
 }
 
 /* Desktop */
@@ -246,7 +225,7 @@
     color: #3350e9;
   }
 
-  .hero-image img {
+  /* .hero-image img {
     max-width: 1150px;
-  }
+  } */
 }

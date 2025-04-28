@@ -62,7 +62,6 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   width: 100%;
-  /* width: 279px; */
   text-align: left;
   margin-bottom: 28px;
 }
@@ -85,7 +84,8 @@
   text-decoration: none;
   padding: 0;
   box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .vertisement-btn:hover,
