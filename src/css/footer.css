@@ -1,0 +1,309 @@
+.footer {
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  border-radius: 30px;
+  padding: 40px 28px 28px;
+  background-color: #0c0c0c;
+}
+
+.footer-logo-soc-wrap {
+}
+
+.footer-logo {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer-logo-soc-wrap {
+  margin-bottom: 20px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-soc-item {
+  width: 34px;
+  height: 34px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon {
+  fill: #fbfbfb;
+}
+
+.footer-soc-icon {
+  fill: #f3f3f3;
+}
+
+.footer-slogan-tel {
+  margin-bottom: 40px;
+}
+
+.footer-tel-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+}
+
+.footer-tel {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+  color: #f3f3f3;
+}
+
+.footer-slogan-desk-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  display: none;
+}
+
+.footer-slogan {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 279px;
+  margin-bottom: 92px;
+}
+
+.footer-nav-addeess-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-list-anchor {
+  display: flex;
+  gap: 8px 16px;
+  flex-wrap: wrap;
+  width: 147px;
+}
+
+.footer-link-anchor {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link-anchor:hover,
+.footer-link-anchor:focus {
+  color: #f3f3f3;
+}
+
+.footer-text-address {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #fbfbfb;
+  width: 83px;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(251, 251, 251, 0.1);
+  margin: 24px 0;
+}
+
+.legal-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-legal-list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-legal-link {
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-legal-link:hover,
+.footer-legal-link:focus {
+  color: #fbfbfb;
+}
+
+/* ---------------TABLET---------------- */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-bottom: 32px;
+  }
+
+  .footer-container {
+    padding: 40px 40px 28px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-logo-soc-tel-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 86px;
+  }
+
+  .footer-soc-list {
+    margin-bottom: 0px;
+  }
+
+  .footer-legal-text {
+    margin-bottom: 0;
+  }
+
+  .footer-soc-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-soc-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-tel {
+    margin-bottom: 0;
+    width: 160px;
+    height: 48px;
+  }
+
+  .footer-tel-link {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .footer-slogan {
+    font-size: 28px;
+    line-height: 1.14;
+    max-width: 524px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+
+  .footer-nav-addeess-wrap {
+    margin-bottom: 28px;
+  }
+
+  .footer-list-anchor {
+    flex-wrap: nowrap;
+    gap: 19px;
+    width: auto;
+  }
+
+  .footer-link-anchor {
+    display: block;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-text-address {
+    font-size: 14px;
+    line-height: 1.29;
+    width: 162px;
+  }
+
+  .footer-legal {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .legal-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  .footer-line {
+    margin: 28px 0;
+  }
+}
+
+/* ------------LAP-TOP---------------------------- */
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .contact-us {
+    padding-bottom: 100px;
+  }
+
+  .footer-slogan {
+    display: none;
+  }
+
+  .footer-slogan-desk-text {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    display: block;
+    max-width: 523px;
+    text-align: center;
+  }
+
+  .footer-slogan-tel {
+    display: flex;
+    gap: 147px;
+  }
+
+  .footer-logo-soc-tel-wrap {
+    justify-content: space-between;
+    margin-bottom: 126px;
+  }
+  .footer-list-anchor {
+    gap: 40px;
+  }
+}

@@ -23,8 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 
-# pull request list
-pullrequest-list.text
-
-# pull request list
-pullrequest-list.text

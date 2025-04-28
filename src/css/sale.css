@@ -1,0 +1,224 @@
+.sale-section {
+  font-family: 'Gilroy';
+  padding-bottom: 60px;
+}
+.sale-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sale-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+  align-self: flex-start;
+}
+.sale-watches-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sale-list {
+  display: flex;
+  gap: 5px;
+}
+.sale-item-smole {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: #f3f3f3;
+  padding: 13px 14px;
+}
+.sale-item-smole img {
+  width: 52px;
+  height: 54px;
+}
+.sale-item-big {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  background-color: #f3f3f3;
+  padding: 50px;
+}
+.sale-item-big img {
+  width: 235px;
+  height: 285px;
+}
+
+.sale-edition-wrap {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Додаємо медіа-запит для екранів до 340px */
+@media (max-width: 340px) {
+  .sale-edition-wrap {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .sale-edition-wrap h2,
+  .sale-edition-wrap p,
+  .sale-edition-wrap button {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sale-section {
+    padding-bottom: 80px;
+  }
+  .sale-title {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+  }
+  .sale-wrap {
+    gap: 40px;
+  }
+  .sale-watches-wrap {
+    flex-direction: row;
+  }
+  .sale-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sale-item-smole {
+    padding: 16px 18px;
+  }
+  .sale-item-smole img {
+    width: 96px;
+    height: 100px;
+  }
+  .sale-item-big {
+    padding: 80px 112px;
+  }
+  .sale-item-big img {
+    width: 328px;
+    height: 398px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sale-section {
+    padding-bottom: 100px;
+  }
+  .sale-wrap {
+    flex-direction: row;
+  }
+  .sale-item-big {
+    padding: 80px 50px;
+  }
+}
+.sale-edition-wrap {
+  background-color: #3350e9;
+  border-radius: 30px;
+  padding: 48px 28px;
+}
+.sale-edition-wrap-one {
+  max-width: 279px;
+  margin-bottom: 20px;
+}
+.sale-edition-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+.sale-number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale-edition-wrap-two {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  max-width: 279px;
+}
+.sale-discount {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+  text-align: center;
+  padding: 8px 12px;
+  margin-right: 9px;
+}
+.sale-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale-advertisment-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  /* max-width: 279px; */
+  margin-bottom: 28px;
+}
+.sale-specs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 279px;
+}
+.sale-spec {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.spec-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .sale-edition-wrap {
+    padding: 60px;
+  }
+  .sale-edition-wrap-one {
+    max-width: 436px;
+  }
+  .sale-edition-subtitle {
+    font-size: 32px;
+    line-height: 1.12;
+  }
+  .sale-discount {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .sale-advertisment-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 584px;
+    margin-bottom: 40px;
+  }
+  .sale-specs-list {
+    max-width: 398px;
+  }
+  .spec-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sale-edition-wrap-one {
+    max-width: 389px;
+  }
+  .sale-advertisment-text {
+    max-width: 410px;
+  }
+}

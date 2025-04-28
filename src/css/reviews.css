@@ -1,7 +1,7 @@
 .reviews {
   font-family: 'Gilroy';
   letter-spacing: -0.02em;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .reviews-title {
@@ -60,7 +60,7 @@
 
 @media only screen and (min-width: 768px) {
   .reviews {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .reviews-title {
@@ -94,7 +94,7 @@
 
 @media only screen and (min-width: 1280px) {
   .reviews {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .reviews-list {

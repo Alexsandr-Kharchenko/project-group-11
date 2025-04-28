@@ -1,0 +1,117 @@
+.about-us .container {
+  font-family: 'Gilroy', sans-serif;
+  padding-bottom: 60px;
+}
+
+.about-us-subtitle-text-and-button {
+  padding: 40px 20px;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.about-us-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+
+.about-us-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  max-width: 295px;
+}
+
+.welcome-text {
+  margin-bottom: 20px;
+}
+
+.statement-piece-text {
+  margin-bottom: 40px;
+}
+
+.about-us-button {
+  display: inline-block; /* inline-block краще для <a> */
+  padding: 15px 37px;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3359e9;
+  color: #fbfbfb;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  text-decoration: none; /* важливо для <a> */
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about-us-button:hover,
+.about-us-button:focus {
+  background-color: #1f3cd4;
+}
+
+.contact-input {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-input:hover,
+.contact-input:focus {
+  border-color: #1f3cd4;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us .container {
+    padding-bottom: 80px;
+  }
+
+  .about-us-subtitle-text-and-button {
+    padding: 80px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+  }
+
+  .about-us-subtitle {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .about-us-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 584px;
+  }
+
+  .statement-piece-text {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us .container {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 100px;
+  }
+
+  .about-us-subtitle-text-and-button {
+    margin-bottom: 0;
+  }
+
+  .about-us-text {
+    max-width: 460px;
+  }
+
+  .statement-piece-text {
+    margin-bottom: 40px;
+  }
+}

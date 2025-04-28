@@ -1,0 +1,80 @@
+<section id="contact-us" class="contact-us">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-wrap">
+      <div class="form-wrap">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form" name="contact-form">
+          <input
+            type="text"
+            class="contact-input"
+            name="contact-name"
+            id="contact_name"
+            placeholder="Name"
+            aria-label="contact-name"
+            required
+          />
+          <input
+            type="email"
+            class="contact-input"
+            name="contact-email"
+            id="contact_email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            aria-label="contact-email"
+            required
+          />
+          <input
+            type="tel"
+            class="contact-input"
+            name="contact-phone"
+            id="contact_phone"
+            value="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            aria-label="contact-phone"
+            required
+          />
+          <textarea
+            name="form-comment"
+            id="form_comment"
+            class="contact-textarea contact-input"
+            placeholder="Comment"
+          ></textarea>
+          <button class="contact-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="exp">
+        <picture class="contact-us-img">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /img/contact-us/contact-us-desc-min.png    1x,
+              /img/contact-us/contact-us-desc@2x-min.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/contact-us/contact-us-tab-min.png    1x,
+              /img/contact-us/contact-us-tab@2x-min.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/contact-us/contact-us-mob-min.png    1x,
+              /img/contact-us/contact-us-mob@2x-min.png 2x
+            "
+          />
+          <img
+            src="/src/img/contact-us/contact-us-desc-min.png"
+            alt="Watches image"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
