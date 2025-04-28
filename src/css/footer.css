@@ -19,10 +19,13 @@
   display: block;
 }
 
+.footer-logo-soc-wrap {
+  margin-bottom: 20px;
+}
+
 .footer-soc-list {
   display: flex;
   gap: 10px;
-  padding-bottom: 20px;
 }
 .footer-soc-item {
   width: 34px;
@@ -50,6 +53,10 @@
   fill: #f3f3f3;
 }
 
+.footer-slogan-tel {
+  margin-bottom: 40px;
+}
+
 .footer-tel-link {
   display: flex;
   align-items: center;
@@ -58,7 +65,6 @@
   border-radius: 16px;
   width: 152px;
   height: 44px;
-  margin-bottom: 40px;
 }
 
 .footer-tel {
