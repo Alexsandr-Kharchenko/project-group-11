@@ -131,19 +131,12 @@
     max-width: 1150px;
     padding: 80px 0;
   }
-  .advertisement_section .container-advertisement {
-    padding-left: 65px;
-    padding-right: 65px;
-  }
+
   .container-vertisement::before {
     background-image: image-set(
       url('/img/advertisement_images/image_701-min.jpg') 1x,
       url('/img/advertisement_images/image_701@2x-min.jpg') 2x
     );
-    /* background-image: image-set(
-      url('/img/advertisement_images/image_701-min.jpg') 1x,
-      url('/img/advertisement_images/image_701@2x-min.jpg') 2x
-    ); */
   }
 
   .vertisement-content {
