@@ -80,7 +80,9 @@
   border-radius: 16px;
   background: transparent;
   color: #fbfbfb;
-  font: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
   text-decoration: none;
   padding: 0;
   box-sizing: border-box;
@@ -119,7 +121,7 @@
 
   .text-vertisement {
     font-size: 48px;
-    line-height: 1.2;
+    line-height: 0.92;
     width: 576px;
     margin-bottom: 32px;
   }
@@ -145,7 +147,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 80px 80px 83px 80px;
+    padding: 83px 80px;
     position: relative;
   }
 

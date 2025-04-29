@@ -44,6 +44,10 @@
   width: 100%;
 }
 
+.img-catalog {
+  margin-bottom: 10px;
+}
+
 .price-catalog {
   font-weight: 400;
   font-size: 14px;
@@ -105,7 +109,9 @@
   }
 
   .img-catalog {
-    min-width: 280px;
+    width: 280px;
+    height: 312px;
+    margin-bottom: 20px;
   }
 
   .catalog-button {
@@ -139,6 +145,7 @@
   }
 
   .img-catalog {
-    min-width: 292px;
+    width: 304px;
+    height: 312px;
   }
 }
