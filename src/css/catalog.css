@@ -84,6 +84,7 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   .catalog-list {
+    padding: 0;
     gap: 32px 16px;
   }
 
@@ -91,6 +92,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: block;
+    width: 100%;
   }
 
   .catalog-title-watch {
@@ -99,8 +102,6 @@
 
   .catalog-item {
     width: calc((100% - 16px) / 2);
-    width: 344px;
-    height: 414px;
   }
 
   .img-catalog {
@@ -122,14 +123,19 @@
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
+  .catalog-item .catalog-title-watch {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+  }
   .catalog-list {
     gap: 32px 23px;
   }
 
   .catalog-item {
     width: calc((100% - 46px) / 3);
-    width: 368px;
-    height: 414px;
   }
 
   .img-catalog {
