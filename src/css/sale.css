@@ -34,7 +34,12 @@
 .sale-item-smole img {
   width: 52px;
   height: 54px;
+  transition: transform 0.3s ease;
 }
+.sale-item-smole img:hover {
+  transform: scale(1.1);
+}
+
 .sale-item-big {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 50px;
@@ -44,6 +49,10 @@
 .sale-item-big img {
   width: 235px;
   height: 285px;
+  transition: transform 0.3s ease;
+}
+.sale-item-big img:hover {
+  transform: scale(1.1);
 }
 
 .sale-edition-wrap {
