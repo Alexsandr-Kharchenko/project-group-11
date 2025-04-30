@@ -34,7 +34,7 @@
 }
 .sale-item-smole img {
   width: 52px;
-  height: 54px;
+  height: auto;
   transition: transform 0.3s ease;
 }
 .sale-item-smole img:hover {
@@ -49,7 +49,7 @@
 }
 .sale-item-big img {
   width: 235px;
-  height: 285px;
+  height: auto;
   transition: transform 0.3s ease;
 }
 .sale-item-big img:hover {
