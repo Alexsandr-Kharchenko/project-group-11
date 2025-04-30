@@ -2,7 +2,7 @@
 .hero {
   overflow: hidden;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .hero-title {
@@ -118,7 +118,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 
   .hero-wrapper {
@@ -176,16 +176,12 @@
   .hero-list {
     display: flex;
   }
-
-  /* .hero-image img {
-    max-width: 704px;
-  } */
 }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .hero-content {

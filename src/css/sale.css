@@ -1,6 +1,7 @@
 .sale-section {
   font-family: 'Gilroy';
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .sale-wrap {
   display: flex;
@@ -60,6 +61,13 @@
   box-sizing: border-box;
 }
 
+.sale-edition-wrap-two {
+  display: flex;
+  margin-bottom: 28px;
+  align-items: center;
+  max-width: 279px;
+}
+
 /* Додаємо медіа-запит для екранів до 340px */
 @media (max-width: 340px) {
   .sale-edition-wrap {
@@ -75,7 +83,8 @@
 }
 @media only screen and (min-width: 768px) {
   .sale-section {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .sale-title {
     font-size: 48px;
@@ -106,10 +115,15 @@
     width: 328px;
     height: 398px;
   }
+
+  .sale-edition-wrap-two {
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .sale-section {
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .sale-wrap {
     flex-direction: row;
@@ -142,12 +156,7 @@
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
 }
-.sale-edition-wrap-two {
-  display: flex;
-  margin-bottom: 30px;
-  align-items: center;
-  max-width: 279px;
-}
+
 .sale-discount {
   color: #fff;
   font-weight: 600;

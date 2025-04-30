@@ -1,5 +1,6 @@
 .contact-us {
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   letter-spacing: -0.02em;
 }
 
@@ -82,7 +83,8 @@
 
 @media only screen and (min-width: 768px) {
   .contact-us {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .contact-us-title {
@@ -128,6 +130,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .contact-us-wrap {
     flex-direction: row;
     justify-content: center;

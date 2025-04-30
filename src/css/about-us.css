@@ -1,6 +1,7 @@
 .about-us .container {
   font-family: 'Gilroy', sans-serif;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about-us-subtitle-text-and-button {
@@ -70,7 +71,8 @@
 
 @media only screen and (min-width: 768px) {
   .about-us .container {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .about-us-subtitle-text-and-button {
@@ -100,7 +102,8 @@
   .about-us .container {
     display: flex;
     gap: 40px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .about-us-subtitle-text-and-button {

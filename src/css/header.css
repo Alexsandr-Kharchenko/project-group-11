@@ -101,7 +101,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 8px;
+    bottom: 12px;
     width: 0;
     height: 0;
     background-color: blue;
@@ -152,19 +152,20 @@
   height: 100vh;
   padding: 20px 20px 40px 20px;
   top: 0;
+  right: 0;
   position: fixed;
   background-image: url(../img/menu/menu-bg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: 1;
+  z-index: 1000;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  transition: left 0.9s ease, transform 0.9s ease;
-
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -176,18 +177,12 @@
   }
 }
 
-.header-menu.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
 .header-menu.is-open {
-  right: 0;
+  transform: translateX(0);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-
-  height: 100vh; /* щоб займати всю висоту екрана */
+  height: 100vh;
   overflow-y: auto;
 }
 
@@ -195,7 +190,6 @@
   position: relative;
   display: block;
   margin-left: auto;
-  padding-bottom: 80px;
   top: 20px;
   right: 20px;
   width: 34px;
@@ -203,6 +197,7 @@
   border: none;
   background-color: transparent;
   color: #ffffff;
+  margin-bottom: 50px;
 }
 
 .menu-btn-icon::before,
@@ -237,7 +232,7 @@
 .nav-menu-link::after {
   content: '';
   position: absolute;
-  bottom: -7px;
+  bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
